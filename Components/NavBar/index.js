@@ -44,17 +44,10 @@ export default function NavBar() {
                   <img src="/img/Twitter.svg" width={20} height={20} />
                   <span>&nbsp; Twitter</span>
                 </p>
-                <p>
-                  <img src="/img/YouTube.svg" width={20} height={20} />
-                  <span>&nbsp; YouTube</span>
-                </p>
+
                 <p>
                   <img src="/img/Facebook.svg" width={20} height={20} />
                   <span>&nbsp; Facebook</span>
-                </p>
-                <p>
-                  <img src="/img/LinkedIn.svg" width={20} height={20} />
-                  <span>&nbsp; LinkedIn</span>
                 </p>
               </div>
             </div>
