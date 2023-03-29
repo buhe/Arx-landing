@@ -1,0 +1,68 @@
+.concept {
+  background-color: var(--primary);
+  position: relative;
+  padding: 3rem 0;
+  width: 100%;
+  z-index: 1;
+  margin-top: 550px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.concept h1 {
+  font-size: 3rem;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  color: var(--dark);
+}
+
+.email_box {
+  display: flex;
+  justify-content: center;
+}
+
+.email_box > input {
+  background-color: transparent;
+  border: 2px solid var(--dark);
+  padding: 1rem;
+}
+
+.email_box > input::placeholder {
+  font-family: "DM Sans", sans-serif;
+  color: var(--dark);
+  letter-spacing: 1px;
+  opacity: 0.8;
+  font-size: 1rem;
+}
+
+.email_box > button {
+  font-family: "DM Sans", sans-serif;
+  cursor: pointer;
+  background-color: var(--dark);
+  color: var(--secondary);
+  border: 2px solid var(--dark);
+  font-size: 1rem;
+  padding-bottom: 0 1.2rem;
+  transition: all 0.5s;
+}
+
+.email_box > button:hover {
+  background-color: transparent;
+  color: var(--dark);
+  border-left: none;
+}
+
+@media screen and (max-width: 767px) {
+  .concept {
+    margin-top: 850px;
+  }
+
+  .concept h1 {
+    font-size: 1.2rem;
+  }
+
+  .email_box > button {
+    font-size: 0.5rem;
+  }
+}

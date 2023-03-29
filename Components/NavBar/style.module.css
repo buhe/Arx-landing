@@ -1,0 +1,125 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+
+  background-color: var(--secondary);
+  border-bottom: 1px solid var(--dark);
+}
+
+.nav > a {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.canvas_menu {
+  width: 40%;
+  height: 100vh;
+  position: fixed;
+  z-index: 10;
+  background-color: var(--primary);
+  top: 0;
+  right: -40%;
+  padding: 0.5rem 3rem;
+  transition: 0.5s cubic-bezier(0.57, 0, 0.06, 0.95);
+}
+
+.canvas_menu.active {
+  right: 0;
+  top: 0;
+  position: fixed;
+}
+
+.close_icon {
+  right: 0;
+  top: 0;
+  position: absolute;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.canvas_content {
+  display: flex;
+  margin-top: 18vh;
+}
+
+.social h4,
+.menu h4 {
+  color: var(--secondary);
+  font-weight: 400;
+}
+
+.social p,
+.menu p {
+  color: var(--dark);
+
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.social {
+  width: 40%;
+}
+
+.social p {
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+
+.menu p {
+  font-size: 2rem;
+}
+
+.social p:hover,
+.menu p:hover {
+  margin-left: 10px;
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 1200px) {
+  .canvas_menu {
+    width: 60%;
+    right: -60%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .canvas_menu {
+    width: 100%;
+    right: -100%;
+  }
+
+  .canvas_content {
+    flex-direction: column;
+    margin-top: 5%;
+  }
+
+  .social > div {
+    display: flex;
+    gap: 10px;
+  }
+
+  .social > div > p > span {
+    display: none;
+  }
+
+  .menu p {
+    font-size: 1.8rem;
+  }
+}
+
+.email {
+  position: absolute;
+  bottom: 0;
+}
+
+.email > p {
+  color: var(--secondary);
+}
+
+.email h2 {
+  color: var(--dark);
+  font-weight: 400;
+}
