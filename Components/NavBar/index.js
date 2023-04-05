@@ -8,7 +8,7 @@ export default function NavBar() {
   return (
     <>
       <nav className={style.nav}>
-        <a href="">Arx</a>
+        <a href="">GPT</a>
         <Image src="/img/logo.svg" width={32} height={32} />
         <Image
           src="/img/menu.svg"
@@ -90,7 +90,7 @@ export default function NavBar() {
                     setOffCanvas(false);
                   }}
                 >
-                  Testimoni
+                  Feedback
                 </a>
               </p>
             </div>
@@ -98,7 +98,7 @@ export default function NavBar() {
           <div className={style.email}>
             <p>Get in touch</p>
             <h2>
-              <u>info@arx.com</u>
+              <u>bugu1986@gmail.com</u>
             </h2>
           </div>
         </div>

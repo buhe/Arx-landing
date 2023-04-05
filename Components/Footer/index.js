@@ -8,12 +8,10 @@ export default function Footer() {
         <div>
           <div>
             <img src="/img/logo.svg" />
-            <h2>Arx</h2>
+            <h2>Client</h2>
           </div>
           <p>
-            Reiciendis et at rerum alias qui. Dolores sit quisquam qui debitis
-            eum sint sapiente corporis labore. Error itaque fugit laudantium
-            molestias voluptas debitis consequatur ad.
+            GPT Apple Client.
           </p>
         </div>
         <div>
@@ -49,7 +47,7 @@ export default function Footer() {
         </div>
       </div>
       <div className={style.footer_terms}>
-        <p>Copyright © 2022 Arx</p>
+        <p>Copyright © 2023</p>
         <p>Terms and Conditions - Privacy Policy</p>
       </div>
     </div>
