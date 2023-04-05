@@ -12,11 +12,11 @@ export default function Hero() {
         <div className={style.col_1}>
           <div>
             <h1>
-              We Help You
+              GPT
               <br />
-              Build Your Dream
+              Apple 🖥️ & 📱
               <br />
-              <u>House</u>
+              <u>Client</u>
             </h1>
             <Button text="Start Now" icon="Send" />
           </div>
