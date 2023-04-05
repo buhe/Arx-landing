@@ -5,7 +5,7 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Architecture landing page</title>
+        <title>GPT Apple Client</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
