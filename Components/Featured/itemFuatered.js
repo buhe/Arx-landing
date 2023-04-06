@@ -3,7 +3,7 @@ const itemFeatured = [
     id: 1,
     image: "Diamond.svg",
     title: "Cross platform mac and iOS",
-    text: "Cross-platform refers to the ability of software or hardware to function across multiple platforms or operating systems. In the case of Mac and iOS, this means that software or applications can be developed to work on both the Mac desktop operating system and the iOS mobile operating system.",
+    text: "Cross-platform development has become increasingly popular in recent years, allowing developers to create apps that work seamlessly across multiple platforms. With the rise of Apple's popularity, cross-platform development has become particularly relevant to the Mac and iOS ecosystems. By utilizing cross-platform tools and frameworks, developers can create applications that run on both Mac and iOS devices, allowing for a more cohesive user experience across devices. This approach not only saves time and resources but also enables developers to reach a wider audience and increase the potential for success. With the continued growth of the Apple ecosystem, cross-platform development for Mac and iOS is sure to become even more prevalent in the years to come.",
   },
   {
     id: 2,
