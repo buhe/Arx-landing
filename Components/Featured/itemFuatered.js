@@ -29,6 +29,12 @@ const itemFeatured = [
     title: "Global key: option + e",
     text: "The global key combination of option + e can be used for various functions depending on the software being used. In Microsoft Word, it can be used to add an acute accent to a letter, while in Adobe Photoshop, it can be used to bring up the Levels adjustment window. It is a versatile tool that can be customized in some software to perform specific actions that can increase efficiency and productivity. Whether it is used for text formatting or photo editing, the option + e combination is a valuable tool for many professionals.",
   },
+  {
+    id: 6,
+    image: "Power-button.svg",
+    title: "No need to sign up for an OpenAI account",
+    text: "There is no requirement to sign up for an OpenAI account in order to access the benefits of the OpenAI platform. This means that anyone can utilize the tools and resources available without the need for additional registration or fees. This open approach is designed to encourage more widespread use of AI technology and foster collaboration within the industry. Whether you are a researcher, developer, or simply interested in exploring the possibilities of AI, the OpenAI platform provides a wealth of resources that are easily accessible to all.",
+  },
 ];
 
 export default itemFeatured;
