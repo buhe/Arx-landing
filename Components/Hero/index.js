@@ -18,7 +18,7 @@ export default function Hero() {
               <br />
               <u>Client</u>
             </h1>
-            <Button text="Start Now" icon="Send" />
+            <Button text="Download" icon="Send" />
           </div>
         </div>
         <div className={style.col_2}>

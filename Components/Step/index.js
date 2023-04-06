@@ -81,7 +81,7 @@ export default function Step() {
             </div>
           ))}
         </div>
-        <Button text="Contact US" icon="Phone" />
+        <Button text="Download" icon="Send" />
       </div>
     </div>
   );
