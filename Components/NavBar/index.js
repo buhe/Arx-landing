@@ -80,7 +80,7 @@ export default function NavBar() {
                     setOffCanvas(false);
                   }}
                 >
-                  Projects
+                  User Case
                 </a>
               </p>
               <p>
