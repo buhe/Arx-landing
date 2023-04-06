@@ -13,12 +13,10 @@ export default function Clients() {
           <h1>
             Customer Say’s
             <br />
-            About <u>Arx</u>
+            About <u>GPT Apple Client</u>
           </h1>
           <p>
-            Aut et repellat ex qui alias asperiores eum totam. Quia maxime sunt
-            cumque laudantium. Accusantium quo beatae at modi et quidem
-            quibusdam dolorem saepe.
+            Customer about GPT Apple Client feedback.
           </p>
         </div>
         <div>
