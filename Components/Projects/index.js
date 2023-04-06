@@ -38,7 +38,7 @@ export default function Projects() {
   return (
     <div className={style.section_projects} id="projects">
       <h1>
-        <u>Projects</u>
+        <u>User Case</u>
       </h1>
       <div className={style.projects}>
         {appState.objects.map((item, key) => (
