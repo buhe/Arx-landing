@@ -43,7 +43,7 @@ export default function Clients() {
                 <div className={style.imageAvatar}>
                   <img src="/img/avatar-1.png" />
                 </div>
-                <p>Alex - Founder</p>
+                <p>He</p>
               </div>
             </SwiperSlide>
             <SwiperSlide className={style.swiper_slide}>
@@ -59,7 +59,7 @@ export default function Clients() {
                 <div className={style.imageAvatar}>
                   <img src="/img/avatar-2.png" />
                 </div>
-                <p>Eva - Designer</p>
+                <p>Hua</p>
               </div>
             </SwiperSlide>
           </Swiper>
